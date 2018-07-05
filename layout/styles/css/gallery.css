@@ -1,0 +1,38 @@
+.profiles{
+	overflow:hidden;
+	list-style:none;
+	width:660px;
+	margin:40px auto;
+	padding:10px 20px;
+}
+
+.profiles li{
+	display:inline;
+	float:left;
+	margin:10px;
+	transition: opacity 500ms ease-in-out;
+	box-shadow: inset 0 0 1px 0px #000;
+}
+
+.profiles li a .bio{
+	color:#fff;
+	height:90%;
+	width:90%;
+	background:rgba(0,0,0,0.8);
+	opacity:0;
+	padding:5%;
+	box-shadow: inset 0 0 5px 5px #000;
+}
+
+.name{font-size:20px;font-weight:bold;font-family: 'Doppio One', sans-serif;color:#fff000}
+.position{font-size:18px;font-family: 'Noticia Text', serif;}
+.description{padding-top:10px;font-size:13px;font-family: 'Noticia Text', serif;}
+
+li.maurice{background-image:url(img/Maurice.jpeg)}
+li.sarah{background-image:url(img/Sarah.png)}
+li.adrian{background-image:url(img/Adrian.png)}
+li.amber{background-image:url(img/Amber.jpg)}
+li.giles{background-image:url(img/Giles.jpg)}
+li.petra{background-image:url(img/Petra1.png)}
+li.shane{background-image:url(img/Shane.jpg)}
+
